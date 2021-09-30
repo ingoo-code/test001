@@ -1,6 +1,6 @@
 const express = require('express')
 const request = require('request')
-const cheerio = require('cheerio') // 치리오
+const cheerio = require('cheerio')
 const app = express();
 
 app.get('/',(req,res)=>{
